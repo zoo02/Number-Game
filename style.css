@@ -1,0 +1,24 @@
+* {
+    text-align: center;
+    background-color: white;
+
+}
+
+.wrapper {
+    color: #0063B2;
+    font-style: normal;
+
+}
+
+.textItem {
+    color: #0063B2;
+}
+
+.userInput {
+    background-color: #ffffff;
+    color: #0063B2;
+}
+
+input::placeholder {
+    color: #0063B2;
+}
