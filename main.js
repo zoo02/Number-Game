@@ -28,7 +28,7 @@ let messagesText = document.getElementById("message")
 
 
 function changeLeftChanceText() {
-    leftChance.textContent = `남은 기회 : ${chance}번`
+    leftChance.textContent = `남은 기회 : ${chance}번 남았다잉`
 
 }
 changeLeftChanceText()
@@ -54,13 +54,13 @@ function playGame() {
 
 
     if (userValue == "") {
-        changeMessage("숫자를 입력해주세요")
+        changeMessage("숫자를 입력해보슈")
         return
     }
 
     for (let i = 0; i < inputHistory.length; i++) {
         if (userValue == inputHistory[i]) {
-            changeMessage("이미 입력한 숫자입니다")
+            changeMessage("이미 입력했다잉")
             userInput.value = ""
             return
         }
@@ -69,7 +69,7 @@ function playGame() {
 
 
     if (userValue < 1 || userValue > 100) {
-        changeMessage("1~100 사이의 숫자를 입력해주세요")
+        changeMessage("1~100 사이의 숫자만 입력해라잉")
         userInput.value = ""
         return
     }
@@ -86,7 +86,7 @@ function playGame() {
     } else if (userValue > randomNum) {
         changeMessage("DOWN⬇️")
     } else {
-        changeMessage("정답입니다!👏🏻")
+        changeMessage("정답이다잉!👏🏻")
         playButton.disabled = true
     }
 

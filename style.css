@@ -1,24 +1,54 @@
 * {
     text-align: center;
-    background-color: white;
-
+    margin: 0px;
+    padding: 0px;
 }
+
+.titlebox {
+    color: black;
+}
+
+body {
+    background-image: url(./numGameImage/36c7faa0-ceb8-4094-b98b-4faf850d3d3c_770x426.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
 
 .wrapper {
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    width: auto;
     color: #0063B2;
     font-style: normal;
-
+    width: 500px;
+    margin-top: auto;
+    position: relative;
+    top: 80%;
+    transform: translateY(-50%);
+    padding: 30px;
+    border-radius: 90px;
+    background-image: url(./numGameImage/soju.jpg);
+    background-repeat: no-repeat;
+    background-size: auto
 }
 
+
 .textItem {
-    color: #0063B2;
+    color: black;
 }
 
 .userInput {
     background-color: #ffffff;
-    color: #0063B2;
+    color: #177226;
 }
 
 input::placeholder {
-    color: #0063B2;
+    color: #177226;
+}
+
+#caution {
+    font-size: small;
+    color: red;
 }
